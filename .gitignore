@@ -1,34 +1,150 @@
-cd D:\Program\campus-food-recommendation
+# ==================== Node.js & npm ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.yarn/
 
-# 在原文件末尾追加新内容
-echo "" >> .gitignore
-echo "# Maven" >> .gitignore
-echo "target/" >> .gitignore
-echo "pom.xml.tag" >> .gitignore
-echo "pom.xml.releaseBackup" >> .gitignore
-echo "pom.xml.versionsBackup" >> .gitignore
-echo "pom.xml.next" >> .gitignore
-echo "release.properties" >> .gitignore
-echo "dependency-reduced-pom.xml" >> .gitignore
-echo "buildNumber.properties" >> .gitignore
-echo ".mvn/timing.properties" >> .gitignore
-echo "" >> .gitignore
-echo "# IntelliJ IDEA" >> .gitignore
-echo ".idea/" >> .gitignore
-echo "*.iws" >> .gitignore
-echo "*.iml" >> .gitignore
-echo "*.ipr" >> .gitignore
-echo "out/" >> .gitignore
-echo "" >> .gitignore
-echo "# Eclipse" >> .gitignore
-echo ".classpath" >> .gitignore
-echo ".project" >> .gitignore
-echo ".settings/" >> .gitignore
-echo "" >> .gitignore
-echo "# OS" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "Thumbs.db" >> .gitignore
-echo "desktop.ini" >> .gitignore
+# ==================== Build & Distribution ====================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+*.min.js
+*.min.css
 
-# 检查
-cat .gitignore
+# ==================== uni-app Specific ====================
+unpackage/
+h5/
+mp-weixin/
+mp-alipay/
+mp-baidu/
+mp-toutiao/
+mp-qq/
+mp-kuaishou/
+quickapp/
+
+# ==================== IDE & Editor ====================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# Other Editors
+*.swp
+*.swo
+*.swn
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ==================== Logs & Runtime ====================
+logs/
+*.log
+logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==================== Coverage & Testing ====================
+lib-cov
+coverage
+.nyc_output
+.grunt
+
+# ==================== Package Managers ====================
+bower_components
+
+# ==================== Environment Variables ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==================== Java & JVM ====================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==================== Maven ====================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ==================== Gradle ====================
+.gradle/
+!gradle-wrapper.jar
+
+# ==================== Spring Boot ====================
+!**/src/main/**/application*.yml
+!**/src/main/**/application*.properties
+!**/src/main/**/bootstrap*.yml
+!**/src/main/**/bootstrap*.properties
+
+# ==================== OS Specific ====================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ==================== Database ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== Local Configuration ====================
+local.properties
+
+# ==================== Temporary Files ====================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ==================== Security ====================
+*.pem
+*.key
+*.crt
+*.csr
+
+# ==================== Documentation ====================
+docs/_build/
+site/

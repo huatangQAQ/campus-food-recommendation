@@ -1,0 +1,34 @@
+cd D:\Program\campus-food-recommendation
+
+# 在原文件末尾追加新内容
+echo "" >> .gitignore
+echo "# Maven" >> .gitignore
+echo "target/" >> .gitignore
+echo "pom.xml.tag" >> .gitignore
+echo "pom.xml.releaseBackup" >> .gitignore
+echo "pom.xml.versionsBackup" >> .gitignore
+echo "pom.xml.next" >> .gitignore
+echo "release.properties" >> .gitignore
+echo "dependency-reduced-pom.xml" >> .gitignore
+echo "buildNumber.properties" >> .gitignore
+echo ".mvn/timing.properties" >> .gitignore
+echo "" >> .gitignore
+echo "# IntelliJ IDEA" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "*.iws" >> .gitignore
+echo "*.iml" >> .gitignore
+echo "*.ipr" >> .gitignore
+echo "out/" >> .gitignore
+echo "" >> .gitignore
+echo "# Eclipse" >> .gitignore
+echo ".classpath" >> .gitignore
+echo ".project" >> .gitignore
+echo ".settings/" >> .gitignore
+echo "" >> .gitignore
+echo "# OS" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo "desktop.ini" >> .gitignore
+
+# 检查
+cat .gitignore
