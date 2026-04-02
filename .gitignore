@@ -1,24 +1,34 @@
-# Compiled class file
-*.class
+cd D:\Program\campus-food-recommendation
 
-# Log file
-*.log
+# 在原文件末尾追加新内容
+echo "" >> .gitignore
+echo "# Maven" >> .gitignore
+echo "target/" >> .gitignore
+echo "pom.xml.tag" >> .gitignore
+echo "pom.xml.releaseBackup" >> .gitignore
+echo "pom.xml.versionsBackup" >> .gitignore
+echo "pom.xml.next" >> .gitignore
+echo "release.properties" >> .gitignore
+echo "dependency-reduced-pom.xml" >> .gitignore
+echo "buildNumber.properties" >> .gitignore
+echo ".mvn/timing.properties" >> .gitignore
+echo "" >> .gitignore
+echo "# IntelliJ IDEA" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "*.iws" >> .gitignore
+echo "*.iml" >> .gitignore
+echo "*.ipr" >> .gitignore
+echo "out/" >> .gitignore
+echo "" >> .gitignore
+echo "# Eclipse" >> .gitignore
+echo ".classpath" >> .gitignore
+echo ".project" >> .gitignore
+echo ".settings/" >> .gitignore
+echo "" >> .gitignore
+echo "# OS" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo "desktop.ini" >> .gitignore
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# 检查
+cat .gitignore
